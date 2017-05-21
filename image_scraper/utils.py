@@ -109,7 +109,7 @@ class ImageScraper(object):
             driver.quit()
         else:
             if self.proxy_url:
-                print("Using proxy: " + self.proxy_url + "\n")
+                print(("Using proxy: " + self.proxy_url + "\n"))
             try:
                 page = requests.get(self.url, proxies=self.proxies)
                 if page.status_code != 200:

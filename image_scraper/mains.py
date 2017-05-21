@@ -1,8 +1,8 @@
 """ Main file containing console command code. """
 
-from __future__ import division
-from __future__ import print_function
-from __future__ import absolute_import
+
+
+
 from .progressbar import ProgressBar, Percentage, Bar, RotatingMarker, ETA, FileTransferSpeed
 from .utils import ImageScraper, download_worker_fn
 from .exceptions import DirectoryAccessError, DirectoryCreateError, PageLoadError
